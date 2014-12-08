@@ -5,32 +5,36 @@
 
 <table>
   <thead>
-    <th>
-      Description
-    </th>
-    <th>
-      Price
-    </th>
-    <th>
-      Date created
-    </th>
-    <th>
-      Date last updated
-    </th>
+    <tr>
+      <th>
+        Description
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Date created
+      </th>
+      <th>
+        Date last updated
+      </th>
+    </tr>
   </thead>
 
   <tbody>
-    <td>
-      <%= @product.description %>
-    </td>
-    <td>
-      <%= @product.price %>
-    </td>
-    <td>
-      <%= @product.created_at %>
-    </td>
-    <td>
-      <%= @product.updated_at %>
-    </td>
+    <tr>
+      <td>
+        <%= @product.description %>
+      </td>
+      <td>
+        <%= @product.price %>
+      </td>
+      <td>
+        <%= @product.created_at %>
+      </td>
+      <td>
+        <%= @product.updated_at %>
+      </td>
+    </tr>
   </tbody>
 </table>
