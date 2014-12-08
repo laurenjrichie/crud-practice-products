@@ -1,0 +1,36 @@
+<h1>
+  <%= @product.name %>
+</h1>
+<br>
+
+<table>
+  <thead>
+    <th>
+      Description
+    </th>
+    <th>
+      Price
+    </th>
+    <th>
+      Date created
+    </th>
+    <th>
+      Date last updated
+    </th>
+  </thead>
+
+  <tbody>
+    <td>
+      <%= @product.description %>
+    </td>
+    <td>
+      <%= @product.price %>
+    </td>
+    <td>
+      <%= @product.created_at %>
+    </td>
+    <td>
+      <%= @product.updated_at %>
+    </td>
+  </tbody>
+</table>
